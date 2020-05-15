@@ -1,0 +1,140 @@
+[
+  {
+    "name": "activityAddressCode",
+    "label": "Activity Address Code*",
+    "dataType": "field",
+    "inputWidth": "8em",
+    "labelColor": "#1549b0",
+    "type": "text"
+  },
+  {
+    "name": "agency",
+    "label": "Agency/Bureau*",
+    "dataType": "field",
+    "inputWidth": "6em",
+    "type": "text"
+  },
+  {
+    "name": "firstName",
+    "label": "First Name*",
+    "dataType": "field",
+    "inputWidth": "10em",
+    "type": "text"
+  },
+  {
+    "name": "middleIntial",
+    "label": "Middle Intial",
+    "dataType": "field",
+    "inputWidth": "3em",
+    "type": "text"
+  },
+  {
+    "name": "lastName",
+    "label": "Last Name*",
+    "dataType": "field",
+    "inputWidth": "10em",
+    "type": "text"
+  },
+  {
+    "name": "phone",
+    "label": "Phone Number*",
+    "dataType": "field",
+    "inputWidth": "11em",
+    "type": "number"
+  },
+  {
+    "name": "phoneExtension",
+    "label": "Phone Extension",
+    "dataType": "field",
+    "inputWidth": "6em",
+    "type": "number"
+  },
+  {
+    "name": "emailMessage",
+    "message": "Only users with .gov or .mil email addresses can currently register with the GSAXcess system.",
+    "dataType": "message"
+  },
+  {
+    "name": "email",
+    "label": "Email Address*",
+    "dataType": "field",
+    "type": "email",
+    "helperText": "You must supply your work Email address. Only users with .gov or .mil email addresses can currently register with the GSAXcess system. GSAXcess® will edit the address. If your address is ineligible, you will see this message: \"You are not authorized for self-registration to access GSAXcess®. Please contact the GSAXcess® Help Desk, 1-866-333-7472 or gsaxcesshelp@gsa.gov\". Contact the GSAXcess® Help Desk for assistance if you receive this message.",
+    "inputWidth": "25em"
+  },
+  {
+    "name": "confirmEmail",
+    "label": "Confirm Email Address*",
+    "dataType": "field",
+    "type": "email",
+    "inputWidth": "25em"
+  },
+  {
+    "name": "password",
+    "label": "Password*",
+    "dataType": "field",
+    "type": "password",
+    "inputWidth": "12em",
+    "helperText": "Password must be between 8 and 16 characters and must contain atleast one numeric character, one lower case character, one upper case character and one special character."
+  },
+  {
+    "name": "passwordInfo",
+    "message": "Password must be between 8 and 16 characters and must contain atleast on numberic, one lower case character, one upper case character and once special character.",
+    "dataType": "message"
+  },
+  {
+    "name": "confirmPassword",
+    "label": "Confirm Password*",
+    "dataType": "field",
+    "type": "password",
+    "inputWidth": "12em"
+  },
+  {
+    "name": "securityQnInfo",
+    "message": "Security Questions must be atleast 7 characters and Answers must be atleast 5 characters.",
+    "dataType": "message"
+  },
+  {
+    "name": "securityQn1",
+    "label": "Security Question 1*",
+    "dataType": "field",
+    "type": "text",
+    "inputWidth": "35em",
+    "helperText": "Security Questions must be atleast 7 characters and Answers must be atleast 5 characters."
+  },
+  {
+    "name": "answer1",
+    "label": "Answer 1*",
+    "dataType": "field",
+    "type": "text",
+    "inputWidth": "35em"
+  },
+  {
+    "name": "securityQn2",
+    "label": "Security Question 2*",
+    "dataType": "field",
+    "type": "text",
+    "inputWidth": "35em"
+  },
+  {
+    "name": "answer2",
+    "label": "Answer 2*",
+    "dataType": "field",
+    "type": "text",
+    "inputWidth": "35em"
+  },
+  {
+    "name": "securityQn3",
+    "label": "Security Question 3*",
+    "dataType": "field",
+    "type": "text",
+    "inputWidth": "35em"
+  },
+  {
+    "name": "answer3",
+    "label": "Answer 3*",
+    "dataType": "field",
+    "type": "text",
+    "inputWidth": "35em"
+  }
+]
